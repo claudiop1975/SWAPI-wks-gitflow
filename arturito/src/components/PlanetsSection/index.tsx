@@ -43,7 +43,7 @@ const Planets = () => {
 
   return (
     <div>
-      <Table columns={columns} data={data.results.slice()} /* :D */ />
+      <Table columns={columns} data={data.results} /* :D */ />
     </div>
   );
 };
